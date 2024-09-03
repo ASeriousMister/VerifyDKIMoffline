@@ -27,7 +27,7 @@ chmod +x first_run.sh
 ## How to run the tool
 Move to the tool's directory
 ```
-cd cd VerifyDKIMoffline
+cd VerifyDKIMoffline
 ```
 Enable the virtual environment to use the customized library
 ```
