@@ -52,15 +52,6 @@ def select_files():
 
 
 def verify_dkim_signature(eml_file):
-    """
-    Verifies the DKIM signature of an EML file.
-
-    Args:
-        eml_file (str): Path to the EML file.
-
-    Returns:
-        bool: True if the DKIM signature is valid, False otherwise.
-    """
     with open(eml_file, 'r') as f:
         msg = email.message_from_string(f.read())
 
