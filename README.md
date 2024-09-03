@@ -36,12 +36,12 @@ source dkve/bin/activate
 ### GUI
 Run the GUI version of the tool with
 ```
-python3 verifyDkim_GUI.py
+python3 verifyDKIM_GUI.py
 ```
 and provide the .eml file containing the email to be verified and the .txt file containing the DKIM key to use into the verification progress.
 ### CLI
 Run the command line version specifying the .eml file containing the email to be verified with the `-e` option and the .txt file containing the DKIM key to use into the verification progress with the `-k` option
 ```
-python3 verifyDkim_cli.py -e emlfile.eml -k dkimkey.txt
+python3 verifyDKIM_CLI.py -e emlfile.eml -k dkimkey.txt
 ```
 
